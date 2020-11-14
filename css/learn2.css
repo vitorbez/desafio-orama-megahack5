@@ -1,0 +1,40 @@
+.learn2-page {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.learn2-page span {
+    padding: 16px;
+    margin-left: 26px;
+    margin-top: 32px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.lesson-1 {
+    display:flex;
+    margin: 16px;
+    top: 24px;
+    height: 80px; 
+}
+
+.lesson-1 .left {
+    background-color: #639D30;
+    flex: 1;
+}
+
+.lesson-1 .right {
+    background-color: #161616;
+    flex: 3;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+}
+
+.lesson-1 .left img {
+    display: block;
+    margin: 12% auto;
+    width: 60%;
+    background-color: #639D30;
+}

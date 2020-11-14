@@ -1,0 +1,132 @@
+* {
+    background: #2F2F2F;    ;
+    color: white;
+}
+
+.boxes-investiments1 {
+    background-color: #161616;
+    color: hsl(248, 88%, 68%);
+    position: relative;
+    font-weight: bold;
+    top: 70px;
+    padding: 16px 16px;
+    margin: 16px;
+}
+
+.boxes-investiments1 img {
+    background-color: #161616;
+    position: relative;
+    top: 4px;
+}
+
+.boxes-investiments1 span {
+    color: hsl(248, 88%, 68%);
+    background-color: #161616;
+    position: relative;
+    left: 150px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.boxes-investiments2 {
+    background-color: #161616;
+    color: #63C596;
+    ;
+    position: relative;
+    font-weight: bold;
+    top: 70px;
+    padding: 16px 16px;
+    margin: 16px;
+}
+
+.boxes-investiments2 img {
+    background-color: #161616;
+    position: relative;
+    top: 4px;
+}
+
+.boxes-investiments2 span {
+    color: #63C596;
+    background-color: #161616;
+    position: relative;
+    left: 179px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.boxes-investiments3 {
+    background-color: #161616;
+    color: #CC8CC9;
+    position: relative;
+    font-weight: bold;
+    top: 70px;
+    padding: 16px 16px;
+    margin: 16px;
+}
+
+.boxes-investiments3 img {
+    background-color: #161616;
+    position: relative;
+    top: 4px;
+}
+
+.boxes-investiments3 span {
+    color: #CC8CC9;
+    background-color: #161616;
+    position: relative;
+    left: 195px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;    
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    
+    background-color: #161616;
+
+    display: flex;
+    
+    justify-content: space-around;
+  }
+
+  footer div {
+    display: block;
+    background-color: #161616;
+    position: relative;
+    text-align: center;
+    margin: 8px 0;
+  }
+
+  footer p {
+    background-color: #161616;
+    font-size: 12px;
+  }
+
+  footer img{
+    background-color: #161616;
+  }
+
+
+.multiple {
+      position: relative;
+      top: 100px;
+  }
+
+
+.multiple h1 {
+    padding: 15px 10px;
+    font-size: 25px;
+}
+
+.multiple img {
+    border-radius: 26px;
+}

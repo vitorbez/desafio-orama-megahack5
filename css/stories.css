@@ -1,0 +1,27 @@
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 16px;
+    top: 32px;
+}
+
+.dots {
+      display: flex;
+      width: 92vw;
+      justify-content: space-around;
+      position: relative;
+  }
+
+.dots img {
+    height: 80px;
+    width: 80px;
+}
+
+.stories-page{
+    line-height: 100vh;
+    text-align: center; 
+}
