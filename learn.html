@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Órama</title>
-
+;
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/btnMenu.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -13,72 +13,83 @@
     <link rel="stylesheet" href="css/glider.min.css">
 </head>
 <body>
+
     <nav class="wrap-menu">
-       <a href="#menu" class="btnMenu btnMenu_open">Menu</a>
+        <div class="header">
+            <a href="#menu" class="btnMenu btnMenu_open"></a>
+            <h3 class="headermenu">Aprenda</h3>
+        </div>
 
-       <ul id="menu" class="menu">
-           <li class="btnMenu btnMenu_close">Sair</li>
-           <li class="menu-item-with-border">
-               <img src="assets/account_circle.svg" alt="Perfil">
-               <a href="" class="menu-item-action">Perfil</a>
-           </li>
-           <li class="menu-item">
-               <img src="assets/homewhite.svg" alt="Home">
-               <a href="index.html" class="menu-item-action">Home</a>
-           </li>
-           <li class="menu-item">
-               <img src="assets/shopping_cart.svg" alt="Invista agora">
-               <a href="" class="menu-item-action">Invista agora</a>
-           </li>
-           <li class="menu-item">
-               <img src="assets/chat.svg" alt="Atendimento">
-               <a href="" class="menu-item-action">Atendimento</a>
-           </li>
-           <li class="menu-item">
-               <img src="assets/bookgreen.svg" alt="Aprenda">
-               <a href="learn.html" class="menu-item-action">Aprenda</a>
-           </li>
-       </ul>
-    </nav> 
+        <ul id="menu" class="menu">
+            <li class="btnMenu btnMenu_close">Sair</li>
+            <li class="menu-item-with-border">
+                <img class="menuicone" src="assets/account_circle.svg" alt="Perfil">
+                <a href="" class="menu-item-action">Perfil</a>
+                </li>
+            <li class="menu-item">
+                <img class="menuicone" src="assets/homewhite.svg" alt="Home">
+                <a href="index.html" class="menu-item-action">Home</a>
+            </li>
+            <li class="menu-item">
+                <img class="menuicone" src="assets/shopping_cart.svg" alt="Invista agora">
+                <a href="" class="menu-item-action">Invista agora</a>
+            </li>
+            <li class="menu-item">
+                <img class="menuicone" src="assets/chat.svg" alt="Atendimento">
+                <a href="" class="menu-item-action">Atendimento</a>
+            </li>
+            <li class="menu-item">
+                <img class="menuicone" src="assets/bookgreen.svg" alt="Aprenda">
+                <a href="learn.html" class="menu-item-action">Aprenda</a>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="dots">
-        <span class="dot"><a href="stories.html"><img src="assets/fleury.svg" alt=""></a></span>
-        <span class="dot"><img src="assets/ps.svg" alt=""></span>
-        <span class="dot"><img src="assets/petz.svg" alt=""></span>
-        <span class="dot"><img src="assets/mglu.svg" alt=""></span>
-    </div>  
+    <main>
+        <div class="stories">
+            <section class="storiessection">
+                <div class="storiesitem">
+                    <img src="assets/fleury.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/mglu.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/petz.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/ps.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/petz.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/mglu.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/fleury.svg" alt="fleury">
+                </div>
+                <div class="storiesitem">
+                    <img src="assets/ps.svg" alt="fleury">
+                </div>
+            </section>
+        </div> 
 
-    <div class="glider-container multiple">
-        <h1>Destaques</h1>
+        <div class="glider-container multiple">
+            <h1>Destaques</h1>
 
-        <div class="glider">
-            <a href="learn2.html">
-                <img src="assets/fleurysq.svg" alt="">
-            </a>
-            <figure>
-                <img src="assets/petzsq.svg" alt="">
-            </figure>
-            <figure>
-                <img src="assets/itausasq.svg" alt="">
-            </figure>
-        </div>       
-    </div> 
+            <div class="glider" id="featured-glider-container"></div>    
+        </div> 
 
-    <div class="glider-container multiple">
-        <h1>Empresas Sustentáveis</h1>
+        <div class="glider-container multiple">
+            <h1>Empresas Sustentáveis</h1>
 
-        <div class="glider2">
-            <figure>
-                <img src="assets/fleurysq.svg" alt="">
-            </figure>
-            <figure>
-                <img src="assets/petzsq.svg" alt="">
-            </figure>
-            <figure>
-                <img src="assets/itausasq.svg" alt="">
-            </figure>
-        </div>       
-    </div>    
+            <div class="glider2" id="sust-glider-container">
+            </div>    
+        </div> 
+    </main>
+
+
     
     <footer>
         <div>
@@ -98,6 +109,8 @@
     <script src="js/btnMenu.js"></script>
 
     <script src="js/glider.min.js"></script>
+
+    <script src="js/gliderApi.js"></script>
 
     <script>
         new Glider(document.querySelector('.glider'), {

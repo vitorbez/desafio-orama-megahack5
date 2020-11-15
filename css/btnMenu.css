@@ -1,20 +1,41 @@
 .btnMenu {
-    display: block;     
-    background-repeat: no-repeat;    
+    display: block;
+    background-repeat: no-repeat;
     text-indent: -9999px;
-    background-color: #639d30; 
+
 
 }
 
 .btnMenu_open {
     background-image: url(../assets/menu.svg);
-    padding: 10px 5px; 
-    background-position: 15px center; 
+    width: 2.5em;
+    height: 2.5em;
+    background-position: left; 
+    background-size: 40px;
+    background-color: #639d30; 
+    color: white;
 }
 
 .btnMenu_close {
     background-color: #639d30;
-    background-image: url(../assets/logo.svg);  
+    background-image: url(../assets/logo.svg);
     padding: 50px 0 ; 
-    background-position: 130px center;  
+    background-position: 130px center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: .5em 0 .5em .5em;
+    align-items: center;
+    background-color: #639d30;
+    position: fixed;
+}
+
+.header__menu {
+    margin-left: 1.5em;
+    font-size: 1.5em;
+    background-color: #639d30;
+    font-weight: 300;
 }

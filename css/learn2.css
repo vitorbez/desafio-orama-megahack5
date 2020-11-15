@@ -1,15 +1,25 @@
 .learn2-page {
     display: flex;
     flex-direction: row;
-    margin: 16px;
+    margin: 0px 16px 0px 16px;
+}
+
+.learn2-page img {
+    position: relative;
+    top: 90px;
+    width: 132px;
+    height: 125px;
+    border-radius: 25px;
 }
 
 .learn2-page span {
     padding: 16px;
     margin-left: 26px;
-    margin-top: 32px;
+    margin-top: 85px;
     background-color: #161616;
     border-radius: 10px;
+    font-size: 14px;
+
 }
 
 .lesson-1 {
@@ -37,4 +47,17 @@
     margin: 12% auto;
     width: 60%;
     background-color: #639D30;
+}
+
+.button {
+    background-color: #639d30;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border-style: none;
+    position: relative;
+    left: 48px;
+}
+
+.button:active {
+    background-color: #547a32; ;
 }
